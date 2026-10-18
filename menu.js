@@ -1,0 +1,49 @@
+const MENU_CSV = `categoria,nombre,descripcion,precio,imagen,disponible
+Promos,Promo 1,Café con leche + media luna,,,SI
+Promos,Promo 2,Café o café con leche + tostadas con queso crema y mermelada,,img/tostadas-cafe.jpg,SI
+Promos,Promo 3,Café o café con leche + tostón de palta / huevo / jamón,,,SI
+Promos,Promo 4,Tostado árabe de jamón y queso,,,SI
+Promos,Promo 5,Exprimido de naranja + medialunas rellenas,,,SI
+Promos,Promo 6,"Exprimido con árabe de jamón, queso, huevo y palta",,,SI
+Cafetería,Té,,,,SI
+Cafetería,Mate cocido,,,,SI
+Cafetería,Mate cocido con leche,,,,SI
+Cafetería,Café expreso (jarrito),,,,SI
+Cafetería,Café,,,,SI
+Cafetería,Café con leche,,,,SI
+Cafetería,Lágrima,,,,SI
+Cafetería,Cortado,,,,SI
+Cafetería,Submarino,,,,SI
+Opciones saladas,Tostado árabe jamón y queso,,,,SI
+Opciones saladas,"Árabe jamón, queso, palta y huevo",,,img/arabe-palta.jpg,SI
+Opciones saladas,Medialunas rellenas,,,,SI
+Opciones saladas,Medialunas XXL,,,,SI
+Opciones saladas,Tostón,"Pan de campo, palta, huevo y jamón",,,SI
+Opciones saladas,Tostadas,Queso crema y mermelada,,,SI
+Los más pedidos,Chocolatada,,,,SI
+Los más pedidos,Exprimido de naranja,,,,SI
+Los más pedidos,Licuados de frutilla,,,img/licuado-frutilla.jpg,SI
+Los más pedidos,Licuado de banana / durazno,,,img/licuado-banana.jpg,SI
+Tartas y postres,Chajá,,,,SI
+Tartas y postres,Brownie,,,img/brownie.jpg,SI
+Tartas y postres,Cheesecake,,,,SI
+Tartas y postres,Lemon pie,,,,SI
+Tartas y postres,Pastafrola,,,,SI
+Tartas y postres,Coco y dulce de leche,,,,SI
+Tartas y postres,Yogures caseros,,5500,,SI
+Budines,Limón,,,,SI
+Budines,Naranja,,,,SI
+Budines,Banana,,,,SI
+Budines,Marmolado,,,,SI
+Budines,Zanahoria,,,,SI
+Alfajores,Maicena XL,,,,SI
+Alfajores,Maicena x 6 u,,,,SI
+Alfajores,Alfa degustación x 6,Variedad de alfajores artesanales,,img/alfajores.jpg,SI
+Artesanales,Pistacho,,,,SI
+Artesanales,Dulce de leche,,,,SI
+Artesanales,Marroc,,,img/marroc.jpg,SI
+Artesanales,Ferrero Rocher,,,img/ferrero.jpg,SI
+Artesanales,Fruto del bosque,,,,SI
+Artesanales,Oreo,,,,SI
+Artesanales,Nutella,,,,SI
+`;
