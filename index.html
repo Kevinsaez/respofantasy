@@ -1,52 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Respo Fantasy | Menú</title>
-<link rel="icon" type="image/png" href="img/favicon.png">
-<meta name="theme-color" content="#F6DDD3">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WKPKRHXV2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-8WKPKRHXV2');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Respo Fantasy | Menú</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta name="theme-color" content="#F6DDD3">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Figtree:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header class="hero text-center">
-  <div class="hearts" id="hearts" aria-hidden="true"></div>
-  <div class="container">
-    <p class="tacc">Contamos con opciones sin TACC</p>
-    <img class="logo" src="img/logo.png" alt="" width="96" height="127">
-    <h1 class="script">Respo Fantasy</h1>
-    <span class="tag">CAFETERÍA Y PASTELERÍA ARTESANAL</span>
-    <p class="sub">Dulces momentos, hechos con amor</p>
-    <a class="btn btn-ink rounded-pill px-4" href="#eventos">Tortas, mesa dulce y catering</a>
+  <header class="hero text-center">
+    <div class="hearts" id="hearts" aria-hidden="true"></div>
+    <div class="container">
+      <p class="tacc">Contamos con opciones sin TACC</p>
+      <img class="logo" src="img/logo.png" alt="" width="96" height="127">
+      <h1 class="script">Respo Fantasy</h1>
+      <span class="tag">CAFETERÍA Y PASTELERÍA ARTESANAL</span>
+      <p class="sub">Dulces momentos, hechos con amor</p>
+      <a class="btn btn-ink rounded-pill px-4" href="#eventos">Tortas, mesa dulce y catering</a>
+    </div>
+  </header>
+  <div class="cats-wrap">
+    <nav class="container cats" id="cats" aria-label="Categorías"></nav>
   </div>
-</header>
-<div class="cats-wrap"><nav class="container cats" id="cats" aria-label="Categorías"></nav></div>
-<div class="container tools"><input id="q" class="form-control form-control-lg" type="search" placeholder="Buscar en el menú" aria-label="Buscar"></div>
-<main class="container" id="menu" aria-live="polite"><p class="msg">Cargando menú…</p></main>
-<section class="events" id="eventos">
-  <div class="container">
-    <h2 class="script">Pedidos y eventos</h2>
-    <p class="text-secondary">Además de la cafetería, preparamos tu pedido a medida.</p>
-    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3" id="services"></div>
-    <p class="ship">Envío gratis en José C. Paz. Con costo en San Miguel, Muñiz y Bella Vista.</p>
-    <div class="d-flex flex-wrap gap-2" id="links"></div>
+  <div class="container tools"><input id="q" class="form-control form-control-lg" type="search"
+      placeholder="Buscar en el menú" aria-label="Buscar"></div>
+  <main class="container" id="menu" aria-live="polite">
+    <p class="msg">Cargando menú…</p>
+  </main>
+  <section class="events" id="eventos">
+    <div class="container">
+      <h2 class="script">Pedidos y eventos</h2>
+      <p class="text-secondary">Además de la cafetería, preparamos tu pedido a medida.</p>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3" id="services"></div>
+      <p class="ship">Envío gratis en José C. Paz. Con costo en San Miguel, Muñiz y Bella Vista.</p>
+      <div class="d-flex flex-wrap gap-2" id="links"></div>
+    </div>
+  </section>
+  <footer class="text-center">
+    <p class="addr">Estamos en El Bodegón del Chef<br><a
+        href="https://www.google.com/maps/search/?api=1&query=Saavedra+815+Mu%C3%B1iz+Buenos+Aires" target="_blank"
+        rel="noopener">Saavedra 815, Muñiz</a></p>
+    <span class="script">Disfrutá cada momento</span>
+  </footer>
+  <div class="modal fade" id="sheet" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content"><button type="button" class="btn-close" data-bs-dismiss="modal"
+          aria-label="Cerrar"></button>
+        <div id="sheetBody"></div>
+      </div>
+    </div>
   </div>
-</section>
-<footer class="text-center">
-  <p class="addr">Estamos en El Bodegón del Chef<br><a href="https://www.google.com/maps/search/?api=1&query=Saavedra+815+Mu%C3%B1iz+Buenos+Aires" target="_blank" rel="noopener">Saavedra 815, Muñiz</a></p>
-  <span class="script">Disfrutá cada momento</span>
-</footer>
-<div class="modal fade" id="sheet" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button><div id="sheetBody"></div></div>
-  </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="menu.js"></script>
-<script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="menu.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
