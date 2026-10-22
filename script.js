@@ -8,7 +8,7 @@ const CONFIG = {
 const SERVICES = [
   { t: "Tortas personalizadas", d: "Diseñadas a tu medida.", i: "img/torta-boca.jpg" },
   { t: "Mesa dulce", d: "Dulces y alfajores para tu evento.", i: "img/alfajores.jpg" },
-  { t: "Catering para eventos", d: "Opciones saladas y dulces." },
+  { t: "Catering para eventos", d: "Opciones saladas y dulces.", i: "img/catering.jpg" },
   { t: "Postres", d: "Para compartir en casa o en un evento.", i: "img/torta-merengue.jpg" },
   { t: "Desayunos personalizados", d: "Un desayuno armado a tu gusto.", i: "img/tostadas-cafe.jpg" }
 ];
